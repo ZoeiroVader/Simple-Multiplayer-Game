@@ -73,7 +73,6 @@ function create() {
     self.blueScoreText.setText('Blue: ' + scores.blue);
     self.redScoreText.setText('Red: ' + scores.red);
   });
-  this.physics.add.collider(this, otherPlayer, null, null, this);
 }
  
 function update() {
